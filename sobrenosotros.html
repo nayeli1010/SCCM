@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./sobrenosotros.html">
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg" style="background-color: #100F0F;">
+        <div class="container-fluid">
+            <img src="./img/logo.png" alt="Logo" style="height: 80px; margin: 0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" onclick="location.href='sccm.html'; return false;">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" onclick="location.href='sobrenosotros.html'; return false;">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Servicios1</a></li>
+                            <li><a class="dropdown-item" href="#">Servicios2</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="location.href='contacto.html'; return false;">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+     <!-- Carrusel -->
+     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/car1.jpg" class="d-block w-100" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img src="img/car2.jpg" class="d-block w-100" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img src="img/car3.jpg" class="d-block w-100" alt="Third slide">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <br>
+    <br>
+    
+    <h1>¿QUIENES SOMOS?</h1>
+    <br>
+    <br>
+    <div id="texto" style="display: flex;  width: 100%; margin-left: 100px; color: rgb(0, 0, 0);">
+        <!--   <p>
+            Somos una empresa especializada en la fabricación de piezas para las industrias electrónica y automotriz,
+            donde la excelencia y la precisión son nuestras principales prioridades. <br> En SCCM contamos con la maquinaria
+            más avanzada para asegurar que nuestros procesos de mecanizado cumplan con los más altos estándares de calidad
+            y precisión. <br> Nuestro equipo especializado y nuestra tecnología de vanguardia nos permiten ofrecer soluciones
+            de maquinado que garantizan resultados consistentes en cada proyecto.
+        </p>-->
+    </div>
+    <div class="container mt-4" style="justify-content: center;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card_1" style="width: 18rem;">
+                    <h3>Misión</h3>
+                    <img src="img/sn11.jpg" class="card-img-top" alt="Imagen">
+                    <div class="card-body">
+                        <br>
+                        <p class="card-text">Proporcionar las tecnologías más innovadoras a medida de las necesidades empresariales, con el objetivo de incrementar su competitividad y productividad.</p>
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card_1" style="width: 18rem;">
+                    <h3>Visión</h3>
+                    <img src="img/sn1.jpg" class="card-img-top" alt="Imagen">
+                    <div class="card-body">
+                        <br>
+                        <p class="card-text">Convertirnos en la compañía de tecnología más atractiva para  la sociedad y para las compañías que requieren incorporar tecnología para mejorar y optimizar sus negocios.</p>
+                        <br>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card_1" style="width: 18rem;">
+                    <h3>Valores</h3>
+                    <img src="img/sn2.jpg" class="card-img-top" alt="Imagen">
+                    <div class="card-body">
+                        <br>
+                        <p class="card-text">✔ Compromiso con el cliente.
+                            <br>
+                            <br>
+                            ✔ Profesionalidad.
+                            <br>
+                            <br>
+                            ✔ Precisión en cada trabajo.</p>
+                            <br>
+                            <br>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h1>NUESTROS OBJETIVOS</h1>
+    <br>
+    <br>
+    <div id="texto" style="display: flex; justify-content: center; align-items: center; width: 100%; color: rgb(0, 0, 0);">
+           <h5>
+            Desarrollar y aplicar tecnologías innovadoras que permitan a nuestros clientes mantenerse a la vanguardia de la industria,<br>
+             ofreciendo productos que superen las expectativas en cuanto a funcionalidad y durabilidad.<br><br><br>
+
+           </h5>
+    </div>
+    <div class="container">
+        <img src="./img/objetivo.png" alt="Imagen"  >
+        <div class="text"><b>Innovación Continua:</b><br>
+            -Desarrollar y lanzar nuevos productos electrónicos que incorporen las últimas tecnologías y tendencias del mercado.<br>
+            -Fomentar una cultura de innovación dentro de la empresa mediante la inversión en investigación y desarrollo (I+D).</div>
+    </div>
+    
+    <div class="container">
+        <img src="./img/objetivo.png" alt="Imagen">
+        <div class="text"><b>Satisfacción del Cliente:</b><br>
+
+           - Ofrecer un excelente servicio al cliente, con soporte técnico y atención personalizada.<br>
+           - Realizar encuestas de satisfacción para identificar áreas de mejora y adaptar los productos a las necesidades del cliente.</div>
+    </div>
+    
+    <div class="container">
+        <img src="./img/objetivo.png" alt="Imagen">
+        <div class="text"><b>Eficiencia Operativa:</b><br>
+
+            -Optimizar los procesos de producción y logística para reducir costos y mejorar los tiempos de entrega.<br>
+            -Implementar tecnologías avanzadas de automatización y gestión de la cadena de suministro.</div>
+    </div>>
+    
+    
+    
+       
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+            <p>
+                <a href="#" class="text-white me-3">Política de Privacidad</a>
+                <a href="#" class="text-white">Términos de Uso</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript de Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+
+</body>
+</html>
