@@ -120,7 +120,7 @@ body {
     text-align: center;
     margin-top: 30px;
   }
-  p {
+ .card_1 p {
     text-align: center;
     margin-right: 10px; /* Ajusta el valor según lo desees */
     margin-left: 5px;
