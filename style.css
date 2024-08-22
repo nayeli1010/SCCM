@@ -150,19 +150,30 @@ body {
 }
 p{
   color: black;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 .container_informe{
   display: flex;
   align-items: center;
   margin-top: 40px;
   margin-left: 40px;
-  font-family: "Montserrat", Sans-serif;
-  font-size: 18px;
+  font-family: "Candara", Sans-serif;
+  font-size: 22px;
 
 }
 .container_informe img{
   margin-left: 50px;
+  animation: float 2s linear infinite;
+  box-shadow: 6px 8px 6px rgb(121, 121, 110);
 }
-
-  
+@keyframes float{
+  0%,100%{
+    transform: translateY(0rem);
+  }
+  50%{
+    transform: translateY(-1.5rem);
+  }
+}
+.titulo{
+  margin-bottom: 5%;
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./sobrenosotros.html">
     <link rel="stylesheet" href="./contacto.html">
+    <link rel="stylesheet" href="./IA.html">
 </head>
 <body>
   
@@ -38,7 +39,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="location.href='contacto.html'; return false;">Contacto</a>
+                        <a class="nav-link" href="#" onclick="location.href='contacto.html'; return false;">Contacto</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -57,8 +58,11 @@
   <br>
   <br>
   <br>
+  <div class="titulo">
+    <h1 style="background-color: rgba(10, 51, 200, 0.716); padding: 10px; color: rgba(255, 255, 255, 0.758);">CONOCENOS</h1>
+  </div>
 <div class="container_informe">
-    <img src="./img/sn2.jpg" alt="Imagen" style="width: 300px;">
+    <img src="./img/sn2.jpg" alt="Imagen"  style="width: 300px;">
     <p style="width: 50%;">En nuestra empresa, ofrecemos soluciones avanzadas de inspección visual con inteligencia artificial para empresas de diversos sectores.<br> Nuestros sistemas automatizados utilizan algoritmos de aprendizaje automático para analizar imágenes y detectar defectos, anomalías o patrones específicos.<br>
         Ya sea en la línea de producción, en el control de calidad o en la monitorización de infraestructuras, nuestros servicios proporcionan una mayor eficiencia, precisión y confiabilidad.
     <br> <br><b>¡Confía en nosotros para llevar tus procesos de inspección al siguiente nivel!.</p></b>
@@ -67,14 +71,16 @@
   <br>
   <br>
   <br>
-<h1 style="background-color: rgba(70, 108, 244, 0.716); padding: 10px; color: rgba(255, 255, 255, 0.758);">NUESTROS SERVICIOS</h1>
-
+<h1 style="background-color: rgba(10, 51, 200, 0.716); padding: 10px; color: rgba(255, 255, 255, 0.758);">NUESTROS SERVICIOS</h1>
+<br>
+  <br>
+  <br>
     <!-- Cards -->
     <div class="container mt-5"style="justify-content: center;" >
         <div class="row">
             <!-- Tarjeta 1 -->
             <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
-                <div class="card">
+                <div class="card" onclick="location.href='retrabajos.html';" style="cursor: pointer;">
                     <img src="./img/funcional.png" alt="Automatización 1" class="card-img-top img-fluid">
                     <div class="card-body text-center">
                         <h5 class="card-title">Retrabajos</h5>
@@ -87,7 +93,8 @@
     
             <!-- Tarjeta 2 -->
             <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
-                <div class="card">
+                <div class="card" onclick="location.href='IA.html';" style="cursor: pointer;">
+                    <a href="sobrenosotros.html" class="text-decoration-none"></a>
                     <img src="./img/funcional.png" alt="Automatización 2" class="card-img-top img-fluid">
                     <div class="card-body text-center">
                         <h5 class="card-title">Sistemas de inspeccion visual</h5>
@@ -100,7 +107,7 @@
     
             <!-- Tarjeta 3 -->
             <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
-                <div class="card">
+                <div class="card" onclick="location.href='funcionales.html';" style="cursor: pointer;">
                     <img src="./img/funcional.png" alt="Automatización 3" class="card-img-top img-fluid">
                     <div class="card-body text-center">
                         <h5 class="card-title">Funcionales</h5>
@@ -113,7 +120,7 @@
     
             <!-- Tarjeta 4 -->
             <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
-                <div class="card">
+                <div class="card" onclick="location.href='spareparts.html';" style="cursor: pointer;">
                     <img src="./img/funcional.png" alt="Automatización 4" class="card-img-top img-fluid">
                     <div class="card-body text-center">
                         <h5 class="card-title">Spare parts</h5>
@@ -132,7 +139,7 @@
     <footer id="foo" class="text-white text-center py-4 mt-5" style="background-color: #100f0f;">
 
         <div class="container">
-            <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+            <p style="color: bisque;">© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
             <p>
                 <a href="#" class="text-white me-3">Política de Privacidad</a>
                 <a href="#" class="text-white">Términos de Uso</a>
