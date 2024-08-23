@@ -3,6 +3,19 @@
     position: relative;
   }
   
+.card-img-top{
+  margin-left: 1px;
+  animation: float 2s linear infinite;
+  box-shadow: 6px 8px 6px rgb(121, 121, 110);
+}
+@keyframes float{
+  0%,100%{
+    transform: translateY(0rem);
+  }
+  50%{
+    transform: translateY(-1rem);
+  }
+}
   /* The actual timeline (the vertical ruler) */
   .main-timeline-2::after {
     content: "";
@@ -34,6 +47,14 @@
     border-radius: 50%;
     z-index: 1;
   }
+  .nav-link {
+    color: rgb(208, 201, 201) !important;
+    transition: color 0.3s ease !important;
+}
+
+.nav-link:hover {
+    color: rgb(0, 208, 255) !important; /* Cambia a tu color preferido */
+}
   
   /* Place the container to the left */
   .left-2 {
