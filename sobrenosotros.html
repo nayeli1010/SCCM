@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./cardcuadrada.css">
+    <link rel="stylesheet" href="./carrusel.css">
     <link rel="stylesheet" href="./sobrenosotros.html">
 </head>
 <body>
@@ -44,7 +46,7 @@
         </div>
     </nav>
      <!-- Carrusel -->
-     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -74,7 +76,7 @@
     <br>
     <br>
     
-    <h1>¿QUIENES SOMOS?</h1>
+    <h1 style="background-color: rgba(25, 79, 117, 0.986); padding: 10px; color: rgba(255, 255, 255, 0.758);">¿QUIENES SOMOS?</h1>
     <br>
     <br>
     <div id="texto" style="display: flex;  width: 100%; margin-left: 100px; color: rgb(0, 0, 0);">
@@ -94,7 +96,7 @@
                     <img src="img/sn11.jpg" class="card-img-top" alt="Imagen">
                     <div class="card-body">
                         <br>
-                        <p class="card-text">Proporcionar las tecnologías más innovadoras a medida de las necesidades empresariales, con el objetivo de incrementar su competitividad y productividad.</p>
+                        <p class="card-text" style="text-align: center;">Proporcionar las tecnologías más innovadoras a medida de las necesidades empresariales, con el objetivo de incrementar su competitividad y productividad.</p>
                         <br>
                         
                     </div>
@@ -112,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card_1" style="width: 18rem;">
                     <h3>Valores</h3>
                     <img src="img/sn2.jpg" class="card-img-top" alt="Imagen">
@@ -134,7 +136,7 @@
         </div>
     </div>
     
-    <h1>NUESTROS OBJETIVOS</h1>
+    <h1 style="background-color: rgba(25, 79, 117, 0.986); padding: 10px; color: rgba(255, 255, 255, 0.758); ">NUESTROS OBJETIVOS</h1>
     <br>
     <br>
     <div id="texto" style="display: flex; justify-content: center; align-items: center; width: 100%; color: rgb(0, 0, 0);">
@@ -144,37 +146,41 @@
 
            </h5>
     </div>
-    <div class="container">
-        <img src="./img/objetivo.png" alt="Imagen"  >
-        <div class="text"><b>Innovación Continua:</b><br>
-            -Desarrollar y lanzar nuevos productos electrónicos que incorporen las últimas tecnologías y tendencias del mercado.<br>
-            -Fomentar una cultura de innovación dentro de la empresa mediante la inversión en investigación y desarrollo (I+D).</div>
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Primera Columna -->
+            <div class="col-12 col-md-6 mb-4">
+                <img src="./img/objetivo.png" alt="Imagen" class="img-fluid">
+                <div class="text text-center">
+                    <b>Innovación Continua:</b><br>
+                    - Fomentar una cultura de innovación dentro de la empresa mediante la inversión en investigación y desarrollo (I+D).
+                </div>
+            </div>
+            <!-- Segunda Columna -->
+            <div class="col-12 col-md-6 mb-4">
+                <img src="./img/satisfaccion.png" alt="Imagen" class="img-fluid">
+                <div class="text text-center">
+                    <b>Satisfacción del Cliente:</b><br>
+                    - Ofrecer un excelente servicio al cliente, con soporte técnico y atención personalizada.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Única Columna en la fila inferior -->
+            <div class="col-12 mb-4">
+                <img src="./img/objetivo.png" alt="Imagen" class="img-fluid">
+                <div class="text text-center">
+                    <b>Eficiencia Operativa:</b><br>
+                    - Optimizar los procesos de producción y logística para reducir costos y mejorar los tiempos de entrega.
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <div class="container">
-        <img src="./img/objetivo.png" alt="Imagen">
-        <div class="text"><b>Satisfacción del Cliente:</b><br>
-
-           - Ofrecer un excelente servicio al cliente, con soporte técnico y atención personalizada.<br>
-           - Realizar encuestas de satisfacción para identificar áreas de mejora y adaptar los productos a las necesidades del cliente.</div>
-    </div>
-    
-    <div class="container">
-        <img src="./img/objetivo.png" alt="Imagen">
-        <div class="text"><b>Eficiencia Operativa:</b><br>
-
-            -Optimizar los procesos de producción y logística para reducir costos y mejorar los tiempos de entrega.<br>
-            -Implementar tecnologías avanzadas de automatización y gestión de la cadena de suministro.</div>
-    </div>>
-    
-    
-    
-       
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4 mt-5">
         <div class="container">
-            <p style="color: bisque;">© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+            <p style="color: rgb(251, 249, 246);">© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
             <p>
                 <a href="#" class="text-white me-3">Política de Privacidad</a>
                 <a href="#" class="text-white">Términos de Uso</a>
