@@ -79,15 +79,42 @@ p{
   color: black;
   margin-left: 100px;
 }
-.container_informe{
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-  margin-left: 40px;
-  font-family: "Candara", Sans-serif;
-  font-size: 22px;
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+
+  .container_informe{
+    align-items: center;
+    margin-top: 40px;
+    font-family: "Candara", Sans-serif;
+    font-size: 22px;
+  
+  }
+
+  .txtInforme{
+    margin: 0;
+    text-align: center;
+  }
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+
+  .container_informe{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: "Candara", Sans-serif;
+    font-size: 22px;
+  
+  }
 
 }
+
+
+
 
 .titulo{
   margin-bottom: 5%;
