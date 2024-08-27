@@ -73,11 +73,17 @@ body {
 
   #texto{
     text-align: center;
+    font-family: "Candara", Sans-serif;
+    font-size: larger;
   }
 
 p{
   color: black;
   margin-left: 100px;
+}
+.card-text{
+  font-family: "Candara", Sans-serif;
+  font-size: larger;
 }
 
 @media only screen and (max-width: 600px) {
@@ -112,9 +118,6 @@ p{
   }
 
 }
-
-
-
 
 .titulo{
   margin-bottom: 5%;
