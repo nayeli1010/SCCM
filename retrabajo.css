@@ -1,9 +1,35 @@
-.parrafo{
-    text-align: center;
-    margin-left: 90px;
-    font-family: "Candara", Sans-serif;
-    font-size: 22px;
+@media only screen and (max-width: 800px) {
+
+    .parrafo{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: "Candara", Sans-serif;
+        font-size: 22px;
+    }
+   
+   
 }
+
+
+   @media only screen and (min-width: 800px) {
+
+    .parrafo{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+
+        font-family: "Candara", Sans-serif;
+        font-size: 22px;
+    }
+   
+   
+   
+}
+   
+
+
 li{
     font-family: "Candara", Sans-serif;   
 }

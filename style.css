@@ -79,7 +79,7 @@ body {
 
 p{
  color: black;
- margin-left: 100px;
+ 
 }
 .card-text{
  font-family: "Candara", Sans-serif;
@@ -99,14 +99,21 @@ p{
  }
 
  .txtInforme{
-   margin: 0;
-   text-align: center;
- }
+  margin-left: 10 px;
+  margin-right: 10px;
+  text-align: center;
+}
 
  .container_informe img{
 
    animation: float 2s linear infinite;
    box-shadow: 6px 8px 6px rgb(21, 97, 129);
+ }
+
+ .sobreNosotrosTxt{
+  color: rgb(0, 0, 0);
+  margin-left: 15px;
+  margin-right: 15px;
  }
  
 }
@@ -129,6 +136,19 @@ p{
    animation: float 2s linear infinite;
    box-shadow: 6px 8px 6px rgb(21, 97, 129);
  }
+
+ .txtInforme{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.sobreNosotrosTxt{
+  width: 80%; 
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 

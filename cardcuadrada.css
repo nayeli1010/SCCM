@@ -5,13 +5,9 @@
     text-align: center; /* Centrar contenido */
     padding: 20px;
     margin-bottom: 20px;
-    margin-left: 30px;
     overflow: hidden;
     border: 5px solid rgba(108, 76, 17, 0.9); /* Borde blanco */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
   }
 .card_1 p {
     text-align: center;
