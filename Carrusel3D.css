@@ -1,3 +1,41 @@
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+  
+    .icon-cards {
+  
+        width: 119px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 186px;
+        margin-right: auto;
+        -webkit-perspective: 800px;
+        perspective: 800px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 600px) {
+  
+    .icon-cards {
+  
+        width: 110px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-perspective: 800px;
+        perspective: 800px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+   
+  
+  }
+
+
 .icon-cards__content {
 	
 	width: 100%;
@@ -26,18 +64,7 @@
 	transform: rotateY(240deg) translateZ(182px);
 }
 
-.icon-cards {
-  
-    width: 110px;
-    height: 120px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-perspective: 800px;
-    perspective: 800px;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+
 
 
 
