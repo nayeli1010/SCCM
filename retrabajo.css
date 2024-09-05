@@ -1,0 +1,14 @@
+.parrafo{
+    text-align: center;
+    margin-left: 90px;
+    font-family: "Candara", Sans-serif;
+    font-size: 22px;
+}
+li{
+    font-family: "Candara", Sans-serif;   
+}
+.car_1 {
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px 0 rgba(48, 47, 47, 0.786); 
+  }
+  

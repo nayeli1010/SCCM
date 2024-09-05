@@ -1,203 +1,205 @@
 /* style.css */
 body {
  
-   background: radial-gradient(circle, #c3c4c6, #fcfcfd); 
+  background: radial-gradient(circle, #c3c4c6, #fcfcfd); 
 
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  color: white; /* Color del texto para que sea legible */
+ min-height: 100vh;
+ margin: 0;
+ padding: 0;
+ font-family: Arial, sans-serif;
+ color: white; /* Color del texto para que sea legible */
 }
 
 .nav-link {
-    color: rgb(208, 201, 201) !important;
-    transition: color 0.3s ease !important;
+   color: rgb(208, 201, 201) !important;
+   transition: color 0.3s ease !important;
 }
 
 .nav-link:hover {
-    color: rgb(0, 208, 255) !important; /* Cambia a tu color preferido */
+   color: rgb(0, 208, 255) !important; /* Cambia a tu color preferido */
 }
 .navbar {
-  width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho */
-  margin: 0; /* Elimina cualquier margen que pueda afectar la visualización */
-  padding: 0; /* Ajusta el padding según sea necesario */
+ width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho */
+ margin: 0; /* Elimina cualquier margen que pueda afectar la visualización */
+ padding: 0; /* Ajusta el padding según sea necesario */
 }
 
 .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
+ padding-left: 0;
+ padding-right: 0;
 }
 
-  .footer{
-    margin-bottom: auto;
-    
-  }
+ .footer{
+   margin-bottom: auto;
+   
+ }
 
-  footer p{
-    text-align: center;
-  }
- 
+ footer p{
+   text-align: center;
+ }
 
-  .text {
-    margin-top: 10px;
-}
-.container img {
-    max-width: 100%;
-    height: auto;
-}
-  h5{
-    font-family: "Candara", Sans-serif;
-    font-size: 22px;
-  }
 
-  .container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; /* Espaciado entre filas si es necesario */
-    color: black;
+ .text {
+   margin-top: 10px;
 }
 .container img {
-    width: 100px;
-    height: auto;
+   max-width: 100%;
+   height: auto;
+}
+ h5{
+   font-family: "Candara", Sans-serif;
+   font-size: 22px;
+ }
+
+ .container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px; /* Espaciado entre filas si es necesario */
+   color: black;
+}
+.container img {
+   width: 100px;
+   height: auto;
 }
 .container .text {
-    margin-left: 10px; /* Espacio entre la imagen y el texto */
+   margin-left: 10px; /* Espacio entre la imagen y el texto */
 }
-  h1{
-    color: rgb(18, 1, 72);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-    text-align: center;
-    margin-top: 30px;
-  }
+ h1{
+   color: rgb(18, 1, 72);
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+   text-align: center;
+   margin-top: 30px;
+ }
 
-  #texto{
-    text-align: center;
-    font-family: "Candara", Sans-serif;
-    font-size: larger;
-  }
+ #texto{
+   text-align: center;
+   font-family: "Candara", Sans-serif;
+   font-size: larger;
+ }
 
 p{
-  color: black;
-  margin-left: 100px;
+ color: black;
+ margin-left: 100px;
 }
 .card-text{
-  font-family: "Candara", Sans-serif;
-  font-size: larger;
+ font-family: "Candara", Sans-serif;
+ font-size: larger;
 }
 
 @media only screen and (max-width: 800px) {
-  /* For mobile phones: */
+ /* For mobile phones: */
 
-  .container_informe{
-    display: grid;
-    place-items: center; /* Centra horizontal y verticalmente */
-    margin-top: 40px;
-    font-family: "Candara", Sans-serif;
-    font-size: 22px;
-  
-  }
+ .container_informe{
+   display: grid;
+   place-items: center; /* Centra horizontal y verticalmente */
+   margin-top: 40px;
+   font-family: "Candara", Sans-serif;
+   font-size: 22px;
+ 
+ }
 
-  .txtInforme{
-    margin: 0;
-    text-align: center;
-  }
+ .txtInforme{
+   margin: 0;
+   text-align: center;
+ }
 
-  .container_informe img{
+ .container_informe img{
 
-    animation: float 2s linear infinite;
-    box-shadow: 6px 8px 6px rgb(21, 97, 129);
-  }
-  
+   animation: float 2s linear infinite;
+   box-shadow: 6px 8px 6px rgb(21, 97, 129);
+ }
+ 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 800px) {
 
-  .container_informe{
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    margin-left: 40px;
-    font-family: "Candara", Sans-serif;
-    font-size: 22px;
-  
-  }
-
-  .container_informe img{
-    margin-left: 50px;
-    animation: float 2s linear infinite;
-    box-shadow: 6px 8px 6px rgb(21, 97, 129);
-  }
-
+ .container_informe{
+   display: flex;
+   align-items: center;
+   margin-top: 40px;
+   margin-left: 40px;
+   font-family: "Candara", Sans-serif;
+   font-size: 22px;
  
+ }
+
+ .container_informe img{
+   margin-left: 50px;
+   animation: float 2s linear infinite;
+   box-shadow: 6px 8px 6px rgb(21, 97, 129);
+ }
+
+
 
 }
 
 .titulo{
-  margin-bottom: 5%;
+ margin-bottom: 5%;
 }
 
 .carruselImg {
-  width: 100%;
-  height: 100%;
-  object-fit: fill; /* Otras opciones: contain, fill, scale-down, none */
-  object-position: center; /* Centra la imagen dentro del contenedor */
+ width: 100%;
+ height: 100%;
+ object-fit: fill; /* Otras opciones: contain, fill, scale-down, none */
+ object-position: center; /* Centra la imagen dentro del contenedor */
 }
 
 .centrado {
-  margin-left: auto;
-  margin-right: auto;
-  
+ margin-left: auto;
+ margin-right: auto;
+ 
 }
 
 
 
 .slider-area h2 {
-	text-align: center;
-	font-family: impact;
-	font-size: 60px;
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin: 100px 0 30px 0;
-	color: #fff;
+ text-align: center;
+ font-family: impact;
+ font-size: 60px;
+ font-weight: 500;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ margin: 100px 0 30px 0;
+ color: #fff;
 }
 .wrapper {
-	display: flex;
-	width: 600px;
-	margin: 0 auto;
-	overflow: hidden;
-	border-radius: 180px;
-	padding: 2.5rem;
-	background: #ddd;
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ display: flex;
+ width: 600px;
+ margin: 0 auto;
+ overflow: hidden;
+ border-radius: 180px;
+ padding: 2.5rem;
+ background: #ddd;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .item {
-	animation: animate 15s alternate linear infinite;
-  margin-left: 5px;
-  margin-right: 5px;
+ animation: animate 15s alternate linear infinite;
+ margin-left: 5px;
+ margin-right: 5px;
 }
 .container:hover .item {
-	animation-play-state: paused;
+ animation-play-state: paused;
 }
 @keyframes animate {
-	0% {
-		transform: translate3d(0, 0, 0);
-	}
-	100% {
-		transform: translate3d(-100px, 0, 0);
-	}
+ 0% {
+   transform: translate3d(0, 0, 0);
+ }
+ 100% {
+   transform: translate3d(-100px, 0, 0);
+ }
 }
 @media (max-width:767px) {
-	.slider-area h2 {
-		font-size: 30px;
-	}
-	.wrapper {
-		width: 95%;
-		border-radius: 0;
-		padding: 0;
-	}
+ .slider-area h2 {
+   font-size: 30px;
+ }
+ .wrapper {
+   width: 95%;
+   border-radius: 0;
+   padding: 0;
+ }
 }
 
-
+.card_1{
+  box-shadow: 6px 8px 6px rgba(149, 132, 24, 0.579); 
+}
