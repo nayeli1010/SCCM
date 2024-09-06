@@ -112,9 +112,14 @@ p{
 
  .sobreNosotrosTxt{
   color: rgb(0, 0, 0);
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10 px;
+  margin-right: 10px;
+  text-align: center;
+  font-family: "Candara", Sans-serif;
+   font-size: 22px;
  }
+ 
+
  
 }
 
@@ -223,3 +228,4 @@ p{
 .card_1{
   box-shadow: 6px 8px 6px rgba(149, 132, 24, 0.579); 
 }
+

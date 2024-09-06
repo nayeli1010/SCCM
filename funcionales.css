@@ -1,0 +1,33 @@
+.parrafo{
+    font-family: "Candara", Sans-serif;
+     font-size: 22px;
+     text-align: center;
+   }
+   .contenedor-imagenes {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente si es necesario */
+    gap: 200px; /* Espacio entre las imágenes */
+    
+  }
+  
+  .fun1 {
+    max-width: 177x; /* Ajusta el tamaño de las imágenes si es necesario */
+    max-height: 272px;
+    box-shadow: 6px 8px 6px rgba(61, 150, 233, 0.579); 
+  }
+  
+  .fun2 {
+    max-width: 177x; /* Ajusta el tamaño de las imágenes si es necesario */
+    max-height: 272px;
+    box-shadow: 6px 8px 6px rgba(61, 150, 233, 0.579); 
+  }
+  .fun3 {
+    max-width: 177x; /* Ajusta el tamaño de las imágenes si es necesario */
+    max-height: 272px;
+    box-shadow: 6px 8px 6px rgba(61, 150, 233, 0.579); 
+  }
+  .li{
+    font-family: "Candara", Sans-serif;
+    font-size: 22px;
+  }
