@@ -1,5 +1,6 @@
+@media only screen and (max-width: 800px) {
 
-.card_1{
+  .card_1{
     background-color: #7f899a7c; /* Fondo azul oscuro */
     color: rgb(10, 10, 10); /* Texto blanco */
     text-align: center; /* Centrar contenido */
@@ -7,8 +8,38 @@
     margin-bottom: 20px;
     overflow: hidden;
     border: 5px solid rgba(108, 76, 17, 0.9); /* Borde blanco */
-   
+    display: inline-block;
+    width: 18rem;
+
   }
+}
+
+
+@media only screen and (min-width: 800px) {
+
+  .card_1{
+    background-color: #7f899a7c; /* Fondo azul oscuro */
+    color: rgb(10, 10, 10); /* Texto blanco */
+    text-align: center; /* Centrar contenido */
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 5px solid rgba(108, 76, 17, 0.9); /* Borde blanco */
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    width: 18rem;
+  }
+
+  
+
+}
+
+
+
+
+
+
 .card_1 p {
     text-align: center;
     margin-right: 10px; /* Ajusta el valor según lo desees */

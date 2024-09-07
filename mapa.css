@@ -52,6 +52,10 @@ body {
         display: inline-block;
     }
     
+    .juntarCards{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
   }
 
 
