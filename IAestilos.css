@@ -134,3 +134,28 @@
       left: 0%;
     }
   }
+
+  .contenedor-imagenes {
+    display: flex;
+    justify-content: space-around; /* Distribuye el espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en filas si el espacio es pequeño */
+  }
+  
+  .contenedor-imagenes img {
+    max-width: 30%; /* Para que las imágenes ocupen hasta el 30% del contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    padding: 10px; /* Opcional: añade espacio entre las imágenes */
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor-imagenes img {
+        max-width: 45%; /* Se ajustan a un 45% del contenedor en pantallas medianas */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contenedor-imagenes img {
+        max-width: 90%; /* Se ajustan a un 90% del contenedor en pantallas pequeñas */
+    }
+  }

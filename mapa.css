@@ -25,32 +25,17 @@ body {
     text-align: center;
   }
 
-  @media only screen and (max-width: 800px) {
-
-    .tabla-container {
-        width: 100%; 
-       
-    }
-
-  }
+  
 
   @media only screen and (min-width: 800px) {
 
-    .tabla-container {
-        width: 100%; 
-       
-    }
 
     .mapa{
         width: 50%;
         display: inline-block;
     }
 
-    
-    .tabla {
-        width: 50%; 
-        display: inline-block;
-    }
+   
     
     .juntarCards{
         padding-left: 10%;
@@ -61,9 +46,28 @@ body {
 
 
 
-.table th, .table td {
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-    border: 1px solid #ddd;
-    padding: 8px;
-    box-shadow: rgb(58, 72, 120) 0px 10px 20px;
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
 }
+
+.mapa {
+    flex: 1;
+    margin-left: 490px;
+}
+
+
+
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+    }
+    
+    .mapa {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+
