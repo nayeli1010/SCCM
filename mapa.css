@@ -31,7 +31,7 @@ body {
 
 
     .mapa{
-        width: 50%;
+        width: 70%;
         display: inline-block;
     }
 
@@ -53,22 +53,29 @@ body {
     padding: 20px;
 }
 
-.mapa {
-    flex: 1;
-    margin-left: 380px;
-}
 
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 800px) {
     .contenedor {
         flex-direction: column;
     }
     
-    .mapa {
+    .mapa iframe {
         width: 100%;
         margin-right: 0px;
     }
+
+    .mapa{
+       
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+   
+
+    
 }
 .nav-link {
     color: rgb(208, 201, 201) !important;
