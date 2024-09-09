@@ -1,3 +1,11 @@
+body {
+ 
+  background: radial-gradient(circle, #c3c4c6, #fcfcfd); 
+ 
+
+}
+
+
 @media only screen and (max-width: 800px) {
 
     .parrafo{
@@ -31,10 +39,25 @@
 
 
 li{
-    font-family: "Candara", Sans-serif;   
+    font-family: Arial, sans-serif;
+   
 }
+.nav-link {
+    color: rgb(208, 201, 201) !important;
+    transition: color 0.3s ease !important;
+ }
+ 
+ .nav-link:hover {
+    color: rgb(0, 208, 255) !important; /* Cambia a tu color preferido */
+ }
+ .navbar {
+  width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho */
+  margin: 0; /* Elimina cualquier margen que pueda afectar la visualización */
+  padding: 0; /* Ajusta el padding según sea necesario */
+ }
 .car_1 {
     border-radius: 8px; 
     box-shadow: 0 4px 8px 0 rgba(48, 47, 47, 0.786); 
   }
+ 
   

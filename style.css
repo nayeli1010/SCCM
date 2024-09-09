@@ -58,10 +58,7 @@ body {
    margin-bottom: 10px; /* Espaciado entre filas si es necesario */
    color: black;
 }
-.container img {
-   width: 100px;
-   height: auto;
-}
+
 .container .text {
    margin-left: 10px; /* Espacio entre la imagen y el texto */
 }
